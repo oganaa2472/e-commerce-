@@ -1,0 +1,12 @@
+{
+  "name": "@src/product",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.58.0",
+    "@aws-sdk/util-dynamodb": "^3.58.0"
+  }
+}

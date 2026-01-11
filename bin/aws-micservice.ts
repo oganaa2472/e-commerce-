@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-import * as cdk from 'aws-cdk-lib/core';
-import { AwsMicserviceStack } from '../lib/aws-micservice-stack';
+import * as cdk from 'aws-cdk-lib';
+import { AwsMicroservicesStack } from '../lib/aws-micservice-stack';
 
 const app = new cdk.App();
-new AwsMicserviceStack(app, 'AwsMicserviceStack', {
+new AwsMicroservicesStack(app, 'AwsMicroservicesStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
